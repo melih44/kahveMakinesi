@@ -1,5 +1,7 @@
 #include <Servo.h>
 #include <LiquidCrystal.h>
+#include <SoftwareSerial.h>
+SoftwareSerial bt(10,11);
 LiquidCrystal lcd(8,7,6,5,4,3);
 Servo servoKahve;
 Servo servoVana;
