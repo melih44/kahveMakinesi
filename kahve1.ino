@@ -39,7 +39,7 @@ void loop()
       delay(50000);
       digitalWrite(9,HIGH);
       delay(1000);
-      servoVana.write(180);
+      servoVana.write(95);
       delay(4200);
       servoVana.write(0);
       delay(1000);
@@ -63,7 +63,7 @@ void loop()
         delay(50000);
         digitalWrite(9,HIGH);
         delay(1000);
-        servoVana.write(180);
+        servoVana.write(95);
         delay(4200);
         servoVana.write(0);
         delay(1000);
